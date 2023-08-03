@@ -1,9 +1,9 @@
 # nosql-challenge
 
-##Challenge Objective
+## Challenge Objective
 Using MongoDB, evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
-##Analysing the dataset
+## Analysing the dataset
 1. Created database and collection using pymongo library for analysing the data
 2. Added record using insert_one
 3. Updated data fields using $set
@@ -12,7 +12,7 @@ Using MongoDB, evaluate some of the ratings data in order to help their journali
 6. Created pipeline and used aggregation method to produce the list of establishment names based on the given criterias 
 7. Used pandas dataframe to show the list of the establishments 
 
-###Attention!
+### Attention!
 1. Ensure the field names match while querying, updating and adding new data
 2. When updating fields using update_many ensure its in a list. 
 For example: 
